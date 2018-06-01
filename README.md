@@ -12,7 +12,7 @@ Tanto na parte do cliente quanto na parte do servidor, basta instalar o mesmo m�
 
 **npm install --save nodemailer-http-transport**
 
-##O lado do cliente
+## O lado do cliente
 A unica limitação é que não é possível enviar anexos (ainda :D) de resto, é como usar o nodemailer, basta criar o transport com o módulo
 ```javascript
 var nodemailer = require('nodemailer');
@@ -22,7 +22,7 @@ var http_transporter = require('nodemailer-http-transport');
 var transporter = nodemailer.createTransport(
   http_transporter.client({
     token: 'EsteDeveSerUmTokenGrandeEAleatório', //este é o token definido pelo lado do servidor
-    url: 'https://AlsumServidorPorAi/rota-do-nodelmailer',
+    url: 'https://AlgumServidorPorAi/rota-do-nodelmailer',
     transporter : 'smtp://naoresponda%40email.com:senha@smtp.com'
   })
 )
