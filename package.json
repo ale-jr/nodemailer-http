@@ -1,0 +1,24 @@
+{
+  "name": "nodemailer-http-transport",
+  "version": "1.0.0",
+  "description": "SMTP bloqueado? Use este módulo para fazer um 'tunel' SMTP usando nodemailer e um servidor https usando express :D / SMTP blocked? Use this module to make a SMTP 'tunnel' using nodemailer and express",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alejrdroid/nodemailer-http.git"
+  },
+  "keywords": [
+    "STMP-Block",
+    "SMTP",
+    "nodemailer"
+  ],
+  "author": "Alexandre Fernandes Junior",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alejrdroid/nodemailer-http/issues"
+  },
+  "homepage": "https://github.com/alejrdroid/nodemailer-http#readme",
+  "dependencies": {
+    "nodemailer": "^4.6.5"
+  }
+}
